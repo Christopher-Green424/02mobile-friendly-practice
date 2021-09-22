@@ -1,0 +1,24 @@
+.noAutoPos {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0vh 20vw;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.content {
+
+}
+
+.heading {
+
+}
