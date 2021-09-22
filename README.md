@@ -1,0 +1,1 @@
+# 02mobile-friendly-practice
