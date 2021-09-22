@@ -4,7 +4,7 @@
 }
 
 main {
-    margin: 0vh 20vw;
+    margin: 0vh 15vw;
 }
 
 .align-right {
@@ -15,10 +15,40 @@ main {
     text-align: center;
 }
 
-.content {
+.title {
+    display: inline-block;
+    text-align: center;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 60px;
+    position: absolute;
+}
 
+.content {
+ font-size: 20px;
 }
 
 .heading {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: .3rem;
+    color: #0C6D78;
+}
 
+.footer {
+    margin-top: 5vh;
+    height: 12vh;
+    background-color: #001D24;
+}
+
+.copyright {
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+    transform: translateY(6vh);
 }
