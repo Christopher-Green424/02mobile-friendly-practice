@@ -1,6 +1,6 @@
 * { box-sizing: border-box; }
 
-@media only screen and (max-width: 1200px) {
+/* @media only screen and (max-width: 1200px) {
     header { background-color: white; }
 }
 
@@ -14,6 +14,24 @@
 
 @media only screen and (max-width: 480px) {
     header { background-color: greenyellow; }
+} */
+
+/* Code for changing SVG linearGradient with CSS Source: https://dockyard.com/blog/2018/10/24/how-to-use-css-variables-for-svg-gradients */
+
+@media only screen and (max-width: 1200px) {
+    #gradient { background-color: white; }
+}
+
+@media only screen and (max-width: 1024px) {
+    #gradient { background-color: orange; }
+}
+
+@media only screen and (max-width: 768px) {
+    #gradient { background-color: magenta; }
+}
+
+@media only screen and (max-width: 480px) {
+    #gradient { background-color: greenyellow; }
 }
 
 .noAutoPos {
