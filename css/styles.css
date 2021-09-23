@@ -1,3 +1,21 @@
+* { box-sizing: border-box; }
+
+@media only screen and (max-width: 1200px) {
+    header { background-color: white; }
+}
+
+@media only screen and (max-width: 1024px) {
+    header { background-color: orange; }
+}
+
+@media only screen and (max-width: 768px) {
+    header { background-color: magenta; }
+}
+
+@media only screen and (max-width: 480px) {
+    header { background-color: greenyellow; }
+}
+
 .noAutoPos {
     margin: 0;
     padding: 0;
@@ -53,3 +71,4 @@ main {
     color: white;
     transform: translateY(6vh);
 }
+
