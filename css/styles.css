@@ -24,6 +24,7 @@ main {
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
+    /* Try using calc() function for font sizing */
     font-size: 60px;
     position: absolute;
 }
